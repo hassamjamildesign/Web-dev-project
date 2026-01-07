@@ -1,0 +1,68 @@
+.mainheading{
+    text-align: center;
+    font-size: 2.5rem;
+    margin-bottom: 5px;
+    font-family: pacifico, sans-serif;
+    color: black;
+    margin-top: 90px;
+}
+.para{
+    text-align: center;
+    font-size: 1.2rem;
+    margin-bottom: 20px;
+    font-family: 'Josefin Sans', sans-serif;
+    color: rgb(50, 50, 60);
+}
+.contact-form{
+    width: 50%;
+    margin: auto;
+    padding: 20px;
+    border: 2px solid rgb(200, 200, 210);
+    border-top-left-radius: 100px;
+    border-bottom-right-radius: 100px;
+    box-shadow: 2px 2px 12px rgba(0, 0, 0, 0.1);
+    background-color: rgb(245, 245, 250);
+}
+.contact-form form{
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    margin-bottom: 50px;
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 1.7rem;
+
+}
+form input, form textarea{
+    width: 80%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid rgb(180, 180, 190);
+    border-radius: 10px;
+    font-size: 1.2rem;
+    font-family: 'Josefin Sans', sans-serif;
+    color: brown;
+}
+form textarea{
+    border: 1px solid rgb(180, 180, 190);
+    height: 150px;
+    resize: vertical;
+    border-top-right-radius: 40px;
+    border-bottom-left-radius: 40px;
+}
+button{
+    width: 50%;
+    padding: 10px;
+    margin: 20px 0;
+    border: none;
+    border-radius: 20px;
+    background-color: brown;
+    color: white;
+    font-size: 1.2rem;
+    cursor: pointer;
+    font-family: 'Josefin Sans', sans-serif;
+}
+button:hover{
+    background-color: black;
+}

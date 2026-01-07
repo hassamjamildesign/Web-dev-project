@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SilverPixels</title>
+    <link rel="stylesheet" href="silverpixels.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Baloo+Bhai+2:wght@400..800&family=Castoro:ital@0;1&family=Josefin+Sans:ital,wght@0,100..700;1,100..700&family=Permanent+Marker&family=Playfair:ital,opsz,wght@0,5..1200,300..900;1,5..1200,300..900&family=Savate:ital,wght@0,200..900;1,200..900&family=Story+Script&display=swap"
+        rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Baloo+Bhai+2:wght@400..800&family=Castoro:ital@0;1&family=Josefin+Sans:ital,wght@0,100..700;1,100..700&family=Pacifico&family=Permanent+Marker&family=Playfair:ital,opsz,wght@0,5..1200,300..900;1,5..1200,300..900&family=Savate:ital,wght@0,200..900;1,200..900&family=Story+Script&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+    <section class="home" id="home">
+        <div class="side">
+            <nav class="nav">
+                <ul class="navlist">
+                    <li><a href="#home">Home</a></li>
+                    <li><a target="_self" href="contact.html">Contact Us</a></li>
+                    <li><a href="#about">About</a></li>
+
+                </ul>
+            </nav>
+            <img src="Logo2-removebg-preview.png" alt="Camera Icon" class="cameraicon">
+            <h1 class="brandname">SilverPixels</h1>
+            <p class="brandline">Your moments, captured in timeless elegance.</p>
+            <a href="#albums" class="calltobtn">Explore Albums</a>
+        </div>
+        <div class="slideshow">
+            <img id="slider" src="images/1.avif" alt="Slideshow Image">
+        </div>
+    </section>
+    <section id="albums">
+        <h2 class="albums-title">Our Albums</h2>
+
+        <div class="album-slider">
+
+            <button class="arrow left" onclick="prevAlbum()">❮</button>
+
+            <div class="album-card active">
+                <img src="images/pexels-sampark-films-samparkfilms-com-1300296201-35474591.jpg">
+                <h3>Wedding Wonders</h3>
+                <p>Capturing the magic of your special day with elegance.</p>
+                <a href="#architecture-album" class="viewbutton">View Album</a>
+            </div>
+
+            <div class="album-card">
+                <img src="images/nature.avif">
+                <h3>Nature</h3>
+                <p>Capturing the beauty of the natural world.</p>
+                <a href="#architecture-album" class="viewbutton">View Album</a>
+            </div>
+
+            <div class="album-card">
+                <img src="images/fineart.avif">
+                <h3>Arts</h3>
+                <p>Creative fine art photography with passion.</p>
+                <a href="#architecture-album" class="viewbutton">View Album</a>
+            </div>
+
+            <div class="album-card">
+                <img src="images/wildlife.avif">
+                <h3>Wildlife</h3>
+                <p>Professional wildlife moments frozen in time.</p>
+                <a href="#architecture-album" class="viewbutton">View Album</a>
+            </div>
+
+            <div class="album-card">
+                <img src="images/events.avif">
+                <h3>Events</h3>
+                <p>Making your events unforgettable.</p>
+                <a href="#architecture-album" class="viewbutton">View Album</a>
+            </div>
+
+            <div class="album-card">
+                <img src="images/architecture.avif">
+                <h3>Architecture</h3>
+                <p>Exploring structures through creative lenses.</p>
+                <a class="viewbutton" href="#architecture-album">View Album</a>
+            </div>
+
+            <div class="album-card">
+                <img src="images/cult.avif">
+                <h3>Culture</h3>
+                <p>Preserving cultural beauty through photography.</p>
+                <a href="#architecture-album" class="viewbutton">View Album</a>
+            </div>
+
+            <div class="album-card">
+                <img src="images/history.avif">
+                <h3>History</h3>
+                <p>Moments from history captured forever.</p>
+                <a href="#architecture-album" class="viewbutton">View Album</a>
+            </div>
+
+            <button class="arrow right" onclick="nextAlbum()">❯</button>
+
+        </div>
+    </section>
+
+    <section id="about" class="about-section">
+        <h2 class="about-title">About SilverPixels</h2>
+
+        <div class="about-container">
+            <div class="about-text">
+                <p>
+                    SilverPixels is a creative photography studio dedicated to capturing
+                    moments that last a lifetime. We believe every photograph tells a story,
+                    and our goal is to preserve emotions, culture, and beauty through our lens.
+                </p>
+
+                <p>
+                    From weddings and events to nature, wildlife, and architectural
+                    photography, our team blends creativity with professionalism to deliver
+                    timeless visuals that speak for themselves.
+                </p>
+
+                <p class="about-highlight">
+                    Your moments, captured in timeless elegance.
+                </p>
+            </div>
+
+            <div class="about-stats">
+                <div class="stat-box">
+                    <h3>8+</h3>
+                    <span>Photography Genres</span>
+                </div>
+                <div class="stat-box">
+                    <h3>300+</h3>
+                    <span>Happy Clients</span>
+                </div>
+                <div class="stat-box">
+                    <h3>5+</h3>
+                    <span>Years of Experience</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="footer">
+        <hr>
+        <footer>
+
+            <address>Lahore,Pakistan</address>
+            <p>All rights reserved for &copy;SilverPixels </p>
+        </footer>
+    </section>
+    <script>
+        const images = [
+            "images/1.avif",
+            "images/3.avif",
+            "images/5.avif",
+        ];
+
+        let index = 0;
+        const slider = document.getElementById("slider");
+
+        setInterval(() => {
+            index = (index + 1) % images.length;
+            slider.src = images[index];
+        }, 3000); // changes image every 3 seconds
+        const cards = document.querySelectorAll(".album-card");
+        let current = 0;
+
+        function showCard(index) {
+            cards.forEach(card => card.classList.remove("active"));
+            cards[index].classList.add("active");
+        }
+
+        function nextAlbum() {
+            current = (current + 1) % cards.length;
+            showCard(current);
+        }
+
+        function prevAlbum() {
+            current = (current - 1 + cards.length) % cards.length;
+            showCard(current);
+        }
+    </script>
+
+</body>
+
+</html>
