@@ -1,0 +1,176 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-color: rgba(240, 240, 245, 0.781);
+}
+.booking-section {
+    
+    padding: 70px 40px;
+    background-color: rgba(240, 240, 245, 0.9);
+}
+
+.booking-title {
+    text-align: center;
+    font-family: 'Pacifico', cursive;
+    font-size: 3rem;
+    color: rgb(70, 70, 78);
+    margin-bottom: 10px;
+}
+
+.booking-subtitle {
+    text-align: center;
+    font-family: 'Playfair', serif;
+    font-size: 1.2rem;
+    color: rgb(39, 39, 56);
+    margin-bottom: 50px;
+}
+
+.booking-container {
+    gap: 40px;
+    margin: auto;
+}
+
+.booking-form-wrapper {
+    margin-left: auto;
+    margin-right: auto;
+    width: 65%;
+    background: white;
+    border-radius: 25px;
+    padding: 40px;
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
+}
+
+.booking-form {
+   
+    gap: 20px;
+    
+}
+
+.form-group {
+    display: flex;
+    flex-direction: column;
+    margin: 10px;
+}
+
+.form-group.full-width {
+    grid-column: 1 / -1;
+}
+
+.form-group label {
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 1rem;
+    color: rgb(36, 36, 41);
+    margin-bottom: 8px;
+    font-weight: 600;
+}
+
+.form-group input,
+.form-group select,
+.form-group textarea {
+    padding: 12px 15px;
+    border: 2px solid rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    font-size: 1rem;
+    font-family: 'Playfair', serif;
+    transition: border-color 0.3s ease;
+}
+
+.form-group input:focus,
+.form-group select:focus,
+.form-group textarea:focus {
+    outline: none;
+    border-color: brown;
+}
+
+.form-group textarea {
+    resize: vertical;
+    min-height: 100px;
+}
+
+.submit-btn {
+    justify-content: space-around;
+    align-items: center;
+    grid-column: 1 / -1;
+    background-color: rgb(36, 36, 41);
+    color: white;
+    padding: 15px 40px;
+    border: none;
+    border-radius: 20px;
+    font-size: 1.1rem;
+    font-weight: bold;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    font-family: 'Josefin Sans', sans-serif;
+    
+}
+
+.submit-btn:hover {
+    background-color: brown;
+    transform: translateY(-2px);
+    box-shadow: 0 5px 15px rgba(165, 42, 42, 0.3);
+}
+
+.booking-info {
+    width: 70%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 50px;
+    gap: 35px;
+}
+
+.info-box {
+    background: white;
+    border-radius: 20px;
+    padding: 25px;
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
+}
+
+.info-box h3 {
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 1.5rem;
+    color: rgb(36, 36, 41);
+    margin-bottom: 15px;
+    margin-top: 0;
+}
+
+.info-box p {
+    font-family: 'Playfair', serif;
+    font-size: 1rem;
+    color: rgb(60, 60, 60);
+    margin: 8px 0;
+    line-height: 1.6;
+}
+
+.info-box strong {
+    color: rgb(36, 36, 41);
+}
+
+hr {
+    height: 4px;
+    background-color: brown;
+    width: 80%;
+    margin-top: 50px;
+    border: none;
+}
+
+footer {
+    text-align: center;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding: 20px 0;
+}
+
+footer p {
+    margin: 0;
+    font-family: 'Playfair', serif;
+}
+
+footer address {
+    font-family: 'Playfair', serif;
+    font-style: normal;
+}

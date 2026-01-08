@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Services - SilverPixels</title>
+    <link rel="stylesheet" href="home-page.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Baloo+Bhai+2:wght@400..800&family=Castoro:ital@0;1&family=Josefin+Sans:ital,wght@0,100..700;1,100..700&family=Permanent+Marker&family=Playfair:ital,opsz,wght@0,5..1200,300..900;1,5..1200,300..900&family=Savate:ital,wght@0,200..900;1,200..900&family=Story+Script&display=swap"
+        rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Baloo+Bhai+2:wght@400..800&family=Castoro:ital@0;1&family=Josefin+Sans:ital,wght@0,100..700;1,100..700&family=Pacifico&family=Permanent+Marker&family=Playfair:ital,opsz,wght@0,5..1200,300..900;1,5..1200,300..900&family=Savate:ital,wght@0,200..900;1,200..900&family=Story+Script&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+    <section class="home" id="home">
+        <div class="side">
+            <nav class="nav">
+                <ul class="navlist">
+                    <li><a href="home-page.html">Home</a></li>
+                    <li><a target="_blank" href="contact.html">Contact Us</a></li>
+                    <li><a href="booking.html">Booking</a></li>
+                </ul>
+            </nav>
+            <img src="Logo2-removebg-preview.png" alt="Camera Icon" class="cameraicon">
+            <h1 class="brandname">SilverPixels</h1>
+            <p class="brandline">Professional photography services tailored for you.</p>
+            <a href="booking.html" class="calltobtn">Book Now</a>
+        </div>
+        <div class="slideshow">
+            <img id="slider" src="images/1.avif" alt="Slideshow Image">
+        </div>
+    </section>
+
+    <section id="services">
+        <h2 class="services-title">Our Albums</h2>
+
+        <div class="service-slider">
+
+            <button class="arrow left" onclick="prevService()">❮</button>
+
+            <div class="service-card active">
+                <img src="images/pexels-sampark-films-samparkfilms-com-1300296201-35474591.jpg">
+                <h3>Wedding Photography</h3>
+                <p>Capture your special day with elegance and timeless beauty.</p>
+                <a href="album.html" class="bookbutton">View Album</a>
+            </div>
+
+            <div class="service-card">
+                <img src="images/events.avif">
+                <h3>Event Coverage</h3>
+                <p>Professional photography for corporate and social events.</p>
+                <a href="album.html" class="bookbutton">View Album</a>
+            </div>
+
+            <div class="service-card">
+                <img src="images/nature.avif">
+                <h3>Nature Photography</h3>
+                <p>Stunning landscapes and natural beauty captured perfectly.</p>
+                <a href="album.html" class="bookbutton">View Album</a>
+            </div>
+
+            <div class="service-card">
+                <img src="images/wildlife.avif">
+                <h3>Wildlife Photography</h3>
+                <p>Bringing wildlife moments to life through our lens.</p>
+                <a href="album.html" class="bookbutton">View Album</a>
+            </div>
+
+            <div class="service-card">
+                <img src="images/architecture.avif">
+                <h3>Architectural Shoots</h3>
+                <p>Showcasing structures with creative and professional angles.</p>
+                <a href="album.html" class="bookbutton">View Album</a>
+            </div>
+
+            <div class="service-card">
+                <img src="images/fineart.avif">
+                <h3>Fine Art Photography</h3>
+                <p>Artistic and creative photography for unique projects.</p>
+                <a href="album.html" class="bookbutton">View Album</a>
+            </div>
+
+            <div class="service-card">
+                <img src="images/cult.avif">
+                <h3>Cultural Documentation</h3>
+                <p>Preserving traditions and cultural moments beautifully.</p>
+                <a href="album.html" class="bookbutton">View Album</a>
+            </div>
+
+            <div class="service-card">
+                <img src="images/history.avif">
+                <h3>Historical Photography</h3>
+                <p>Documenting historical sites and moments for posterity.</p>
+                <a href="album.html" class="bookbutton">View Album</a>
+            </div>
+
+            <button class="arrow right" onclick="nextService()">❯</button>
+
+        </div>
+    </section>
+
+    <section id="packages" class="packages-section">
+        <h2 class="packages-title">Our Packages</h2>
+
+        <div class="packages-container">
+            <div class="package-box">
+                <h3>Basic Package</h3>
+                <div class="price">$299</div>
+                <ul class="package-features">
+                    <li>2 Hours Coverage</li>
+                    <li>50 Edited Photos</li>
+                    <li>Online Gallery</li>
+                    <li>Basic Retouching</li>
+                </ul>
+                <a href="contact.html" class="package-btn">Get Started</a>
+            </div>
+
+            <div class="package-box featured">
+                <div class="popular-badge">Most Popular</div>
+                <h3>Premium Package</h3>
+                <div class="price">$599</div>
+                <ul class="package-features">
+                    <li>5 Hours Coverage</li>
+                    <li>150 Edited Photos</li>
+                    <li>Online Gallery + USB</li>
+                    <li>Advanced Retouching</li>
+                    <li>Second Photographer</li>
+                </ul>
+                <a href="contact.html" class="package-btn">Get Started</a>
+            </div>
+
+            <div class="package-box">
+                <h3>Deluxe Package</h3>
+                <div class="price">$999</div>
+                <ul class="package-features">
+                    <li>Full Day Coverage</li>
+                    <li>300+ Edited Photos</li>
+                    <li>Premium Album + USB</li>
+                    <li>Professional Retouching</li>
+                    <li>Two Photographers</li>
+                    <li>Video Highlights</li>
+                </ul>
+                <a href="contact.html" class="package-btn">Get Started</a>
+            </div>
+        </div>
+    </section>
+
+    <section id="why-choose" class="why-section">
+        <h2 class="why-title">Why Choose SilverPixels?</h2>
+
+        <div class="why-container">
+            <div class="why-text">
+                <p>
+                    At SilverPixels, we don't just take photos—we create memories that last forever.
+                    Our team of experienced photographers combines technical expertise with artistic
+                    vision to deliver exceptional results every time.
+                </p>
+
+                <p>
+                    We use state-of-the-art equipment and the latest techniques to ensure your
+                    photos are of the highest quality. Whether it's a wedding, corporate event,
+                    or personal project, we approach each assignment with dedication and creativity.
+                </p>
+
+                <p class="why-highlight">
+                    Your vision, our expertise—together we create magic.
+                </p>
+            </div>
+
+            <div class="why-stats">
+                <div class="stat-box">
+                    <h3>100%</h3>
+                    <span>Client Satisfaction</span>
+                </div>
+                <div class="stat-box">
+                    <h3>24/7</h3>
+                    <span>Customer Support</span>
+                </div>
+                <div class="stat-box">
+                    <h3>Fast</h3>
+                    <span>Delivery Turnaround</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="footer">
+        <hr>
+        <footer>
+            <address>Lahore, Pakistan</address>
+            <p>All rights reserved for &copy;SilverPixels</p>
+        </footer>
+    </section>
+
+    <script>
+        const images = [
+            "images/1.avif",
+            "images/3.avif",
+            "images/5.avif",
+        ];
+
+        let index = 0;
+        const slider = document.getElementById("slider");
+
+        setInterval(() => {
+            index = (index + 1) % images.length;
+            slider.src = images[index];
+        }, 3000);
+
+        const cards = document.querySelectorAll(".service-card");
+        let current = 0;
+
+        function showCard(index) {
+            cards.forEach(card => card.classList.remove("active"));
+            cards[index].classList.add("active");
+        }
+
+        function nextService() {
+            current = (current + 1) % cards.length;
+            showCard(current);
+        }
+
+        function prevService() {
+            current = (current - 1 + cards.length) % cards.length;
+            showCard(current);
+        }
+    </script>
+
+</body>
+
+</html>

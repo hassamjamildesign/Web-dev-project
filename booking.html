@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Book Now - SilverPixels</title>
+    <link rel="stylesheet" href="booking.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Baloo+Bhai+2:wght@400..800&family=Castoro:ital@0;1&family=Josefin+Sans:ital,wght@0,100..700;1,100..700&family=Permanent+Marker&family=Playfair:ital,opsz,wght@0,5..1200,300..900;1,5..1200,300..900&family=Savate:ital,wght@0,200..900;1,200..900&family=Story+Script&display=swap"
+        rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Baloo+Bhai+2:wght@400..800&family=Castoro:ital@0;1&family=Josefin+Sans:ital,wght@0,100..700;1,100..700&family=Pacifico&family=Permanent+Marker&family=Playfair:ital,opsz,wght@0,5..1200,300..900;1,5..1200,300..900&family=Savate:ital,wght@0,200..900;1,200..900&family=Story+Script&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+
+
+    <section id="booking" class="booking-section">
+        <h2 class="booking-title">Book Your Session</h2>
+        <p class="booking-subtitle">Fill out the form below and we'll get back to you within 24 hours</p>
+
+        <div class="booking-container">
+            <div class="booking-form-wrapper">
+                <form action="#" method="POST" class="booking-form">
+                    
+                    <div class="form-group">
+                        <label for="name">Full Name</label>
+                        <input type="text" id="name" name="name" required placeholder="Enter your full name">
+                    </div>
+
+                    <div class="form-group">
+                        <label for="email">Email Address</label>
+                        <input type="email" id="email" name="email" required placeholder="your.email@example.com">
+                    </div>
+
+                    <div class="form-group">
+                        <label for="phone">Phone Number</label>
+                        <input type="tel" id="phone" name="phone" required placeholder="+92 300 1234567">
+                    </div>
+
+                    <div class="form-group">
+                        <label for="service">Select Service</label>
+                        <select id="service" name="service" required>
+                            <option value="">Choose a service...</option>
+                            <option value="wedding">Wedding Photography</option>
+                            <option value="events">Event Coverage</option>
+                            <option value="nature">Nature Photography</option>
+                            <option value="wildlife">Wildlife Photography</option>
+                            <option value="architecture">Architectural Shoots</option>
+                            <option value="fineart">Fine Art Photography</option>
+                            <option value="culture">Cultural Documentation</option>
+                            <option value="history">Historical Photography</option>
+                        </select>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="package">Select Package</label>
+                        <select id="package" name="package" required>
+                            <option value="">Choose a package...</option>
+                            <option value="basic">Basic Package - $299</option>
+                            <option value="premium">Premium Package - $599</option>
+                            <option value="deluxe">Deluxe Package - $999</option>
+                        </select>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="date">Preferred Date</label>
+                        <input type="date" id="date" name="date" required>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="time">Preferred Time</label>
+                        <input type="time" id="time" name="time" required>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="location">Event Location</label>
+                        <input type="text" id="location" name="location" required placeholder="Enter event location">
+                    </div>
+
+                    <div class="form-group full-width">
+                        <label for="message">Additional Details</label>
+                        <textarea id="message" name="message" rows="5" placeholder="Tell us more about your requirements, special requests, or any questions you have..."></textarea>
+                    </div>
+
+                    <button type="submit" class="submit-btn">Book Now</button>
+                </form>
+            </div>
+
+            <div class="booking-info">
+                <div class="info-box">
+                    <h3>📞 Contact Info</h3>
+                    <p><strong>Phone:</strong> +92 300 1234567</p>
+                    <p><strong>Email:</strong> info@silverpixels.com</p>
+                    <p><strong>Location:</strong> Lahore, Pakistan</p>
+                </div>
+
+                <div class="info-box">
+                    <h3>⏰ Working Hours</h3>
+                    <p><strong>Monday - Friday:</strong> 9:00 AM - 6:00 PM</p>
+                    <p><strong>Saturday:</strong> 10:00 AM - 4:00 PM</p>
+                    <p><strong>Sunday:</strong> By Appointment</p>
+                </div>
+
+                <div class="info-box">
+                    <h3>💡 Booking Tips</h3>
+                    <p>• Book at least 2 weeks in advance</p>
+                    <p>• Peak season: March - June</p>
+                    <p>• 50% advance payment required</p>
+                    <p>• Flexible rescheduling options</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="footer">
+        <hr>
+        <footer>
+            <address>Lahore, Pakistan</address>
+            <p>All rights reserved for &copy;SilverPixels</p>
+        </footer>
+    </section>
+
+</body>
+
+</html>
